@@ -25,10 +25,8 @@ modern Python conventions.
 
 ```bash
 # Using uv (recommended)
-uv add nflreadpy
+uv pip install git+https://github.com/HighTier-dev/nfl-scrap-py.git
 
-# Using pip
-pip install nflreadpy
 ```
 
 ## Usage
