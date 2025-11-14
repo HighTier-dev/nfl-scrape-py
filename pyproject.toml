@@ -3,7 +3,7 @@ requires = ["uv_build>=0.8.15,<0.9.0"]
 build-backend = "uv_build"
 
 [project]
-name = "nflScrapePy"
+name = "nfl_scrape_py"
 version = "0.0.1"
 description = "A Python package for downloading NFL data from nflverse repositories"
 readme = "README.md"
