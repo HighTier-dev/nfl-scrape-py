@@ -1,6 +1,6 @@
 [build-system]
-requires = ["uv_build"]
-build-backend = "uv_build.api"
+requires = ["uv_build>=0.8.15,<0.9.0"]
+build-backend = "uv_build"
 
 [project]
 name = "nfl-scrap-py"
@@ -127,6 +127,3 @@ exclude_lines = [
     "if 0:",
     "if __name__ == .__main__.:",
 ]
-
-[tool.uv.extra-build-dependencies]
-nfl-scrap-py = ["uv_build.api"]
